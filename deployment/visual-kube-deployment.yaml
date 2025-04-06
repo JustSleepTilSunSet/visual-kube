@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: visual-kube-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: visual-kube-app
+  template:
+    metadata:
+      labels:
+        app: visual-kube-app
+    spec:
+      containers:
+        - name: visual-kube-app
+          image: visual-kube-app:0.1.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3001
