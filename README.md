@@ -34,3 +34,4 @@
   5. [Dockerfile doc.](https://docs.docker.com/build/concepts/dockerfile/)
   6. [Docker compose yaml doc](https://docs.docker.com/compose/how-tos/networking/)
   7. [Docker networks doc.](https://docs.docker.com/reference/compose-file/services/#network_mode)
+  8. [Docker volumes](https://docs.docker.com/engine/storage/volumes/)
