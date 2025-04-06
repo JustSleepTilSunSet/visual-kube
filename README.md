@@ -26,8 +26,11 @@
   2. [Docker image doc.](https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/)
   3. [minikube start doc.](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download)
   4. [compose doc.](https://docs.docker.com/compose/how-tos/environment-variables/envvars/#compose_project_name)
-    4-1. [Set to container](https://stackoverflow.com/questions/44924082/set-project-name-in-docker-compose-file)
-    4-2. [ Set image policy ](https://stackoverflow.com/questions/53877516/how-do-i-set-the-imagepullpolicy-with-minikube)
+  
+     4-1. [Set to container](https://stackoverflow.com/questions/44924082/set-project-name-in-docker-compose-file)
+  
+     4-2. [Set image policy ](https://stackoverflow.com/questions/53877516/how-do-i-set-the-imagepullpolicy-with-minikube)
+    
   5. [Dockerfile doc.](https://docs.docker.com/build/concepts/dockerfile/)
   6. [Docker compose yaml doc](https://docs.docker.com/compose/how-tos/networking/)
   7. [Docker networks doc.](https://docs.docker.com/reference/compose-file/services/#network_mode)
