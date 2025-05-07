@@ -2,3 +2,5 @@
 .DS_Store
 *configmap*
 node_modules
+note
+.vscode
