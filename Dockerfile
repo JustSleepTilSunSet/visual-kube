@@ -1,6 +1,6 @@
-FROM node:16.20.2-buster
+FROM node:22-alpine
 WORKDIR /app
 COPY . .
 RUN npm install
 EXPOSE 3001
-CMD ["npm", "start"]
+CMD ["npm", "run","start:dev"]

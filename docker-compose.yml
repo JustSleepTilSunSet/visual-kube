@@ -3,6 +3,6 @@ services:
     build: .
     env_file: ".env"
     ports:
-      - "${SERVER_PORT}:${SERVER_PORT}"
+      - "8888:8888"
     volumes:
       - ${PWD}:/app

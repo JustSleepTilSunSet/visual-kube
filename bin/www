@@ -8,10 +8,12 @@ var app = require('../app');
 var debug = require('debug')('visual-minkube:server');
 var http = require('http');
 require('dotenv').config();
+let { get_env } = require('../model/system/global_variable')
+let global_variable = get_env()
 /**
  * Get port from environment and store in Express.
  */
-var port = normalizePort(process.env.SERVER_PORT || '3000');
+var port = normalizePort(global_variable.MODE=="LOCAL"?'8888':(process.env.SERVER_PORT || '3000'));
 app.set('port', port);
 
 /**
